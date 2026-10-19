@@ -61,9 +61,6 @@ crashlytics.properties
 # Kotlin/Native
 .kotlin/local-build-cache/
 
-# Gradle wrapper
-/gradle/wrapper/gradle-wrapper.properties
-
 # JetBrains
 out/
 
