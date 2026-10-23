@@ -30,3 +30,33 @@ Alternatively open the root directory in Android Studio, sync and run `app`. Con
 5. Reinstall normal debug (`-PsimulateFailure=false`) without uninstalling; retry should recover.
 
 Failure simulation applies only to debug builds. This demonstrates source failure; the default source is an asset, so airplane mode alone does not produce a network error. No live REST endpoint is claimed.
+
+## Tasty Discoveries - UI Snapshots & Walkthrough
+
+Below are snapshots of the user interface (UI) for the **Tasty Discoveries** Android application, covering the app icon, splash screen, and core functional features.
+
+### 1. App Icon & Splash Screen
+
+| App Icon (Launcher) | Splash Screen |
+| :---: | :---: |
+| <img src="screenshots/app_icon.png" width="260" alt="App Icon" /> | <img src="screenshots/splash.png" width="260" alt="Splash Screen" /> |
+| *App Launcher Icon* | *Launch Splash Screen* |
+
+---
+
+### 2. Core App Functionality
+
+#### Main Restaurant Discovery Feed
+The home feed displays exploration area details, quick search functionality, filtering options ("Open now", "Favourites"), and a rich list of local restaurants with ratings, categories, delivery times, and favorite toggle actions.
+
+<img src="screenshots/main_screen.png" width="280" alt="Main Screen" />
+
+#### Restaurant Details View
+Tapping on any restaurant card opens the detail view, presenting comprehensive information including ratings, estimated delivery times, delivery fees, availability status, and option to save/remove from favorites.
+
+<img src="screenshots/restaurant_detail.png" width="280" alt="Restaurant Detail" />
+
+#### Search & Filtering
+Users can search restaurants in real-time by name or cuisine type, and combine filters to discover local spots instantly.
+
+<img src="screenshots/search_screen.png" width="280" alt="Search Screen" /> 
